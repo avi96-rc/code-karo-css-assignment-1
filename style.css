@@ -146,7 +146,7 @@
 .flodesk {
   font-family: Roboto, Arial, sans-serif;
   box-sizing: border-box;
-  width: 30%;
+  width: 500px;
   margin: 50px auto;
   display: flex;
   flex-direction: column;
