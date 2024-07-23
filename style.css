@@ -1,203 +1,92 @@
-/* -----------------------------------waze */
-
-.waze {
-  width: 600px;
-  margin: 50px auto;
-  padding: 160px 80px;
-  font-family: Boing, Rubik, sans-serif;
-  border-radius: 21px;
-  background-color: rgb(30, 229, 146);
-  box-sizing: border-box;
-}
-
-.waze-btn {
+* {
   border: none;
-  padding: 10px 25px;
-  background-color: white;
-  border-radius: 21px;
-  font-size: 16px;
-  cursor: pointer;
-  font-weight: 550;
+  padding: none;
+  margin:0;
 }
 
-.waze-heading {
-  font-size: 33px;
-  border-bottom: 20px;
+div {
+  /* border: 1px solid green; */
 }
 
-.waze-para {
-  font-weight: 500;
-}
+/* zomato card */
 
-/*--------------------------------- Google Profile */
-
-.profile {
-  font-family: Roboto, Arial, sans-serif;
+.card {
+  width: 550px;
+  padding: 18px;
+  margin: 25px auto;
+  border-radius: 24px;
   box-sizing: border-box;
   border: 1px solid lightgray;
+  font-family: Boing, Rubik, sans-serif;
+}
+
+.img-container{
+    position: relative;
+}
+
+.card-img {
+  width: 100%;
   border-radius: 24px;
-  width: 500px;
-  margin: 500px auto;
-  /* padding: 0px 24px; */
-  display: flex;
-  flex-direction: column;
   box-sizing: border-box;
 }
-
-.top,
-.bottom,
-.middle {
-  padding: 16px 30px;
-}
-
-
-
-.bottom {
-  border-top: 1px solid lightgray;
-  cursor: pointer;
-}
-
-.heading-profile {
-  font-weight: 500;
-  font-size: 33px;
-}
-
-.para-profile {
-  color: rgb(68, 71, 70);
+.card-offer {
+  background-color: royalblue;
+  padding: 4px 12px;
+  margin: 0;;
+  width: fit-content;
+  color: white;
+  position: absolute;
+  left:0;
+  bottom:24px;
   font-size: 18px;
 }
 
-.img-profile {
-  border-radius: 50%;
-  padding: 50px;
+.eta{
+    padding:6px 8px;
+    border-radius: 8px;
+    background-color: whitesmoke;
+    position: absolute;
+    right:24px;
+    bottom:24px;
+    font-size: 18px;
 }
 
-.link-profile {
-  text-decoration: none;
-  color: rgb(11, 87, 208);
-  font-size: 20px;
-  font-weight: 450;
+.card-desc{
+    padding:16px 0;
 }
 
-/* Photos */
+.card-hdr{
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 12px;
 
-.photos {
-  font-family: Roboto, Arial, sans-serif;
-  box-sizing: border-box;
-  border: 1px solid lightgray;
-  border-radius: 24px;
-  width: 500px;
-  margin: 500px auto;
-  /* padding: 0px 24px; */
-
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
 }
 
-.photos-img {
-  width: 100%;
-  border-radius: 24px 24px 0 0;
+
+.card-dtl{
+    font-size: 22px;
 }
 
-.photos-subscribe {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+
+.card-btm {
+    border-top: 2px solid lightgray;
+    padding: 14px 0;
+    display: flex;
+    align-items: center;
+  }
+
+
+
+.safety-img {
+  margin-right: 24px;
+  width: 80px;
+  height: 30px;
 }
 
-.photos-desc {
-  padding: 50px 30px;
+.safety-dtl {
+    font-size: 20px;
 }
 
-.photos-lock {
-  width: 24px;
-  height: 24px;
-  background-color: transparent;
-  padding-right: 8px;
-}
-
-.photos-para {
-  margin-bottom: 30 px;
-}
-
-.photos-btn {
-  text-decoration: none;
-  border: 2px solid lightgray;
-  color: rgb(11, 87, 208);
-  background-color: transparent;
-  font-size: 16px;
-  border-radius: 8px;
-  padding: 12px 24px;
-  font-weight: 600;
-  cursor: pointer;
-}
-
-.cl-grey {
-  color: grey;
-  font-weight: 400;
-}
-
-/* -------------------------------flodesk */
-
-* {
-  /* border: 1px solid green; */
-}
-.flodesk {
-  font-family: Roboto, Arial, sans-serif;
-  box-sizing: border-box;
-  width: 500px;
-  margin: 500px auto;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  text-align: center;
-  padding: 24px 12px;
-}
-
-.flodesk-img {
-  width: 80%;
-}
-
-.input {
-  width: 100%;
-  margin-bottom: 24px;
-  padding: 16px 30px;
-  box-sizing: border-box;
-  border-radius: 10px;
-  border: 1px solid lightgrey;
-}
-
-.flodesk-btn {
-  border: none;
-  background-color: black;
-  color: white;
-  padding: 16px 40px;
-  font-weight: 600;
-  border-radius: 146px;
-  cursor: pointer;
-}
-
-a {
-  font-size: 14px;
-  font-weight: 400;
-  color: rgba(0, 0, 0, 0.742);
-  padding: 0 4px;
-}
-
-footer {
-  margin-top: 34px;
-  font-size: 14px;
-}
-
-span {
-  width: 100%;
-  font-size: 14px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.flowdesk-header {
-  margin: 0px;
+.clr-grey {
+  color: gray;
 }
