@@ -1,7 +1,7 @@
 /* -----------------------------------waze */
 
 .waze {
-  width: 50%;
+  width: 600px;
   margin: 50px auto;
   padding: 160px 80px;
   font-family: Boing, Rubik, sans-serif;
@@ -36,7 +36,7 @@
   box-sizing: border-box;
   border: 1px solid lightgray;
   border-radius: 24px;
-  width: 40%;
+  width: 500px;
   margin: 50px auto;
   /* padding: 0px 24px; */
   display: flex;
@@ -86,7 +86,7 @@
   box-sizing: border-box;
   border: 1px solid lightgray;
   border-radius: 24px;
-  width: 40%;
+  width: 500px;
   margin: 50px auto;
   /* padding: 0px 24px; */
 
